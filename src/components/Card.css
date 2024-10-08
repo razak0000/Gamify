@@ -1,0 +1,31 @@
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+}
+
+td {
+  border: 2px solid #000;
+  color: rgb(1, 5, 222);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2rem;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+td:hover {
+  background-color: #ddd;
+}
+
+td.X {
+  color: #f00;
+}
+
+td.O {
+  color: #00f;
+}
